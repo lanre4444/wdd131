@@ -13,23 +13,17 @@
         padding: 1rem 2rem;
     }
 
-   .site-title {
-       font-family: "Playfair Display", serif;
-       font-size: 2rem;
-       font-weight: 700;
-       margin: 0;
-   }
-
-   nav {
-       display: flex;
-       width: auto;
-   }
+    nav {
+        display: flex;
+        width: auto;
+    }
 
     .navigation {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         gap: 2rem;
+        width: auto;
     }
 
     .navigation li {
