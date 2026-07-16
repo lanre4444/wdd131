@@ -1,0 +1,130 @@
+/* temples.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1,
+h2,
+figcaption {
+    font-family: "Playfair Display", serif;
+}
+
+header {
+    background-color: #0d47a1;
+    color: white;
+    padding: 1rem;
+    position: relative;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#menu {
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.navigation {
+    display: none;
+    list-style: none;
+    width: 100%;
+}
+
+.navigation.open {
+    display: block;
+}
+
+.navigation li {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navigation a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    background-color: #0d47a1;
+}
+
+.navigation li {
+    margin: .5rem 0;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #0d47a1;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+figure {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    padding: .75rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: .3rem;
+}
