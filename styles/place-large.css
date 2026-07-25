@@ -1,0 +1,56 @@
+/* Desktop View */
+@media screen and (min-width: 768px) {
+
+    header {
+        padding: 1.5rem;
+    }
+
+    main {
+        position: relative;
+    }
+
+    /* Hero Image */
+    .hero img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Floating Cards */
+    .data,
+    .weather {
+        position: absolute;
+        background: rgba(255, 255, 255, 0.95);
+        width: 280px;
+        padding: 1.2rem;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, .25);
+        border-radius: 8px;
+    }
+
+    /* Data Card (Top Left) */
+    .data {
+        top: 2rem;
+        left: 2rem;
+    }
+
+    /* Weather Card (Bottom Right) */
+    .weather {
+        bottom: 2rem;
+        right: 2rem;
+    }
+
+    /* Hide SVG on Desktop */
+    .weather-icon {
+        display: none;
+    }
+
+    /* Emoticon after Weather heading */
+    .weather h2::after {
+        content: " ⛅";
+        font-size: 1.4rem;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+}
