@@ -145,7 +145,6 @@ textarea:focus {
 }
 
 /* Footer */
-
 footer {
     background-color: var(--primary-color);
     color: white;
@@ -156,6 +155,12 @@ footer {
 
 footer p:first-child {
     margin-bottom: .4rem;
+}
+
+/* Fix Lighthouse color contrast */
+#currentyear {
+    color: #ffffff;
+    font-weight: 700;
 }
 
 #lastModified {
